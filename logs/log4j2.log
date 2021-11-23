@@ -1,0 +1,27 @@
+2021-11-23 19:39:15,656 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 19:39:16,032 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=9ca7e699-23ac-4771-9382-9363958907a2, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 19:39:16,032 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 19:39:16,033 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=0eaa918c-1400-4aaf-9319-3ba908e5166f, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 19:39:16,033 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 19:39:16,033 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 19:39:16,034 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 19:39:16,035 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=cf8345a2-1518-4cb0-8ca3-01b0abf33516, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 19:39:16,035 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:02:57,767 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:02:58,094 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=60a608dd-d849-4909-a711-ffb6f789ecf4, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 20:02:58,094 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:02:58,095 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=21b8000e-1868-4d0e-827f-470138cb1901, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 20:02:58,096 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:02:58,096 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:02:58,096 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:02:58,097 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=055f4d6f-d91f-4d30-987f-bd8ebc6b9f45, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 20:02:58,097 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:03:08,362 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:03:08,702 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=a00cbb16-ce2e-425d-ab7f-4f9211c38974, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 20:03:08,702 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:03:08,703 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=cc739252-1f93-48e7-b328-e4a30255073d, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 20:03:08,703 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:03:08,703 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:03:08,704 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 20:03:08,705 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=874f73be-5a8c-49e7-8961-b40dde2a753c, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 20:03:08,705 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
