@@ -32,9 +32,13 @@ public class ConeWarehouse {
         instance.coneMap.put(coneId,coneFactory);
     }
 
-    public ConeFactory getConeFactory (UUID coneId){
+    public ConeParameters getConeParameters (UUID coneId){
         ConeFactory data = instance.coneMap.get(coneId);
         return null;
+    }
+
+    public ConeFactory remove(UUID coneId){
+        return coneMap.remove(coneId);
     }
 
 }

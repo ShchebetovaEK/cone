@@ -1,5 +1,9 @@
 package by.tms.entity;
 
+import by.tms.observer.Observer;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -9,6 +13,7 @@ public class Cone implements Figure {
      private Point center;
      private double radius;
      private double height ;
+     private List<Observer> observers = new ArrayList<>();
 
      public Cone() {
      }

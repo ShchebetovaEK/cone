@@ -1,5 +1,6 @@
 package by.tms;
 
+import by.tms.entity.ConeParameters;
 import by.tms.factory.ConeFactory;
 import by.tms.factory.PointFactory;
 import by.tms.mapper.ConeInputMapper;
@@ -12,7 +13,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(Main.class.getClassLoader().getResource("log4j2.xml").getPath());
+
 
         Reader reader = new Reader();
         ConeInputMapper coneInputMapper = new ConeInputMapper(new ConeFactory(), new PointFactory());
@@ -27,9 +28,9 @@ public class Main {
                 .filter(coneInputValidator::validateParameters)
                 .map(coneInputMapper::mapToCone)
                 .forEach(cone -> {
-//                    System.out.println("coneId: " + cone.getConeId());
-//                    System.out.println("sqr: " + coneService.calculateSquareCone(cone));
-//                    System.out.println("volume: " + coneService.calculateVolumeCone(cone));
+                    System.out.println("coneId: " + cone.getConeId());
+                    System.out.println("sqr: " + coneService.calculateSquareCone(cone));
+                    System.out.println("volume: " + coneService.calculateVolumeCone(cone));
                 });
 
     }

@@ -4,7 +4,6 @@ import by.tms.entity.Cone;
 import by.tms.entity.Point;
 import by.tms.factory.ConeFactory;
 import by.tms.factory.PointFactory;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -33,6 +32,7 @@ public class ConeInputMapper {
 
 
     public List<Double> mapToIntParams(List<String> params){
+        logger.debug("mapToIntParams was executed");
         return params.stream().map(this::parseDouble).collect(Collectors.toList());
     }
 

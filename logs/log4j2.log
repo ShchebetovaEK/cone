@@ -25,3 +25,52 @@
 2021-11-23 20:03:08,704 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
 2021-11-23 20:03:08,705 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=874f73be-5a8c-49e7-8961-b40dde2a753c, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
 2021-11-23 20:03:08,705 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:32:59,984 INFO b.t.r.Reader [main] Success, we are read filenameC:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-23 22:32:59,995 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:33:00,326 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=b92d5729-bd55-4047-b5c0-ddf1d88636b9, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 22:33:00,327 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:33:00,327 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=d8b66232-223e-42a8-8c7d-124a4592384e, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 22:33:00,327 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:33:00,328 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:33:00,329 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:33:00,329 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=17f83e32-169b-4dc3-98b9-66eaf7429e34, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 22:33:00,330 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:38:12,374 INFO b.t.r.Reader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-23 22:38:12,384 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:38:12,385 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:38:12,713 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=23f8a2e8-7907-4014-ae93-bf99314e7a55, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 22:38:12,716 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:38:12,716 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:38:12,717 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=d7113d26-53a8-46f2-961d-b6167997fe36, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 22:38:12,718 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:38:12,718 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:38:12,718 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:38:12,719 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:38:12,720 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=d43b14f4-17e6-4e3a-ab69-845075c6ce35, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 22:38:12,720 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:36,610 INFO b.t.r.Reader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-23 22:39:36,624 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:36,624 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:39:36,955 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=24fe7ead-c594-4312-8482-34381519ab10, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 22:39:36,957 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:36,958 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:39:36,958 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=6922444b-1ecb-4da1-a818-c551390a66ff, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 22:39:36,959 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:36,959 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:36,959 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:36,959 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:39:36,960 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=d81cfa42-dcd5-4bd3-99c8-b89bd33123c6, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 22:39:36,960 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:56,107 INFO b.t.r.Reader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-23 22:39:56,122 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:56,122 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:39:56,463 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=e5a469c2-8444-4d7d-95e5-20b820756b27, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-23 22:39:56,466 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:56,466 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:39:56,467 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=ffe3a902-dcac-447d-9345-6acde0de321c, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-23 22:39:56,467 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:56,468 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:56,468 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-23 22:39:56,469 DEBUG b.t.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-23 22:39:56,469 INFO b.t.m.ConeInputMapper [main] mapToCone successfulCone{coneId=0b3c3839-3c68-47f9-a9b5-21025067a2e3, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=6.0}
+2021-11-23 22:39:56,470 DEBUG b.t.m.ConeInputMapper [main] mapToStringParams was executed

@@ -20,10 +20,11 @@ public class Reader {
 
     public Optional<List<String>> getLines(String filename) {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(filename)))) {
+            logger.log(Level.INFO,"Success, we are read filename "+ filename);
             return Optional.of(reader.lines().collect(Collectors.toList()));
         } catch (IOException e) {
             e.printStackTrace();
-            logger.log(Level.INFO,"Success");
+            logger.log(Level.INFO,"can't read a filename "+ filename);
             return Optional.empty();
         }
     }
