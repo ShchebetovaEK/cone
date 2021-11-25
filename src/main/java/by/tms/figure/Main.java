@@ -25,6 +25,8 @@ public class Main {
                 .filter(coneInputValidator::validateParameterCount)
                 .map(coneInputMapper::mapToIntParams)
                 .filter(coneInputValidator::validateParameters)
+                .filter(coneInputValidator::validateConeHeight)
+                .filter(coneInputValidator::validateConeRadius)
                 .map(coneInputMapper::mapToCone)
                 .forEach(cone -> {
                     System.out.println("coneId: " + cone.getConeId());

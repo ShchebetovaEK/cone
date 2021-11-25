@@ -24,3 +24,15 @@
 2021-11-25 15:45:43,662 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
 2021-11-25 15:45:43,662 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
 2021-11-25 15:45:43,662 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=67feeebd-3032-43fa-9d8b-0b19bac47d65, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
+2021-11-25 16:48:20,193 INFO b.t.f.r.Reader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-25 16:48:20,202 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 16:48:20,202 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 16:48:20,384 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=35684e40-3d8b-407c-9c2a-916efd97178e, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-25 16:48:20,386 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 16:48:20,386 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 16:48:20,386 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=ae1a2317-e290-4e60-ba28-24306a740226, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-25 16:48:20,387 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 16:48:20,387 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 16:48:20,388 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 16:48:20,388 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 16:48:20,389 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=4af2deff-62ec-4acf-8f1e-90873a7d280a, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}

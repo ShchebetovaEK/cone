@@ -15,15 +15,15 @@ public class ConeInputValidator {
     public boolean validateParameters(List<Double> params){
         return params.stream().noneMatch(Objects::isNull);
     }
-//todo
-//    public boolean validateConeHeight(double height){
-//        return height > 0;
 
-//    }
-//todo
-//    public boolean validateConeRadius(double radius){
-//        return  radius > 0;
-//    }
+    public boolean validateConeRadius(List<Double> params){
+        return params.get(3) > 0;
+    }
+
+    public boolean validateConeHeight(List<Double> params){
+        return params.get(4) > 0;
+
+    }
 
 
 }
