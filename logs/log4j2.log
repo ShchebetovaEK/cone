@@ -36,3 +36,19 @@
 2021-11-25 16:48:20,388 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
 2021-11-25 16:48:20,388 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
 2021-11-25 16:48:20,389 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=4af2deff-62ec-4acf-8f1e-90873a7d280a, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
+2021-11-25 17:05:09,392 INFO b.t.f.r.Reader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-25 17:05:09,407 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,407 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 17:05:09,576 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=cc2f1fb9-10e1-40c0-9f10-6b462f906f3b, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 17:05:09,592 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=3628b9f3-557f-445f-b44d-c3f8bbf567f7, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 17:05:09,592 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=e9fc9a80-1055-4527-a121-523fe9cc90f5, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-25 17:05:09,592 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed

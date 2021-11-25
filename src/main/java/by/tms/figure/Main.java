@@ -1,7 +1,10 @@
 package by.tms.figure;
 
+import by.tms.figure.entity.ConeWarehouse;
 import by.tms.figure.factory.ConeFactory;
 import by.tms.figure.factory.PointFactory;
+import by.tms.figure.observer.ConeEvent;
+import by.tms.figure.observer.Observer;
 import by.tms.figure.reader.Reader;
 import by.tms.figure.service.ConeService;
 import by.tms.figure.validator.ConeInputValidator;
@@ -18,6 +21,7 @@ public class Main {
         ConeInputMapper coneInputMapper = new ConeInputMapper(new ConeFactory(), new PointFactory());
         ConeInputValidator coneInputValidator = new ConeInputValidator();
         ConeService coneService = new ConeService();
+        ConeWarehouse coneWarehouse = new ConeWarehouse();
         reader.getLines("C:\\Users\\HP\\IdeaProjects\\cone\\src\\main\\resources\\Info.txt")
                 .stream()
                 .flatMap(List::stream)
