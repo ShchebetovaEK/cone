@@ -1,6 +1,8 @@
 package by.tms.figure.repository;
 
 import by.tms.figure.entity.Cone;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -9,9 +11,17 @@ import java.util.stream.Collectors;
 
 public class ConeRepository {
 
-
+    private static final Logger logger = LogManager.getLogger();
+//    private final ConeRepository
 
     private List<Cone> cones = new ArrayList<>();
+
+//    public void Repository(List<Cone> cones) {
+//        for (Cone cone: cones) {
+//            СoneRepository.add(cone);
+//        }
+//        logger.info("Repository filled successfully");
+//    }
 
     public boolean add(Cone cone){
         return cones.add(cone);

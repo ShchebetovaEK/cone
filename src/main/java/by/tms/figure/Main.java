@@ -36,8 +36,8 @@ public class Main {
                 .filter(coneInputValidator::validateConeRadius)
                 .map(coneInputMapper::mapToCone)
                 .peek(cone -> cone.attach(coneObserver))
-                .collect(Collectors.toList())
-                .forEach(cone -> cone.setRadius(1));
+                .collect(Collectors.toList());
+
 
 
 
