@@ -72,4 +72,12 @@ public class ConeRepository {
     public int hashCode() {
         return cones.hashCode();
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("ConeRepository{");
+        sb.append("cones=").append(cones);
+        sb.append('}');
+        return sb.toString();
+    }
 }

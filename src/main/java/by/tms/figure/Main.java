@@ -1,11 +1,10 @@
 package by.tms.figure;
 
+import by.tms.figure.entity.ConeParameters;
 import by.tms.figure.entity.ConeWarehouse;
 import by.tms.figure.factory.ConeFactory;
 import by.tms.figure.factory.PointFactory;
-import by.tms.figure.observer.ConeEvent;
-import by.tms.figure.observer.Observer;
-import by.tms.figure.reader.Reader;
+import by.tms.figure.reader.ConeReader;
 import by.tms.figure.service.ConeService;
 import by.tms.figure.validator.ConeInputValidator;
 import by.tms.figure.mapper.ConeInputMapper;
@@ -17,11 +16,14 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Reader reader = new Reader();
+        ConeReader reader = new ConeReader();
         ConeInputMapper coneInputMapper = new ConeInputMapper(new ConeFactory(), new PointFactory());
         ConeInputValidator coneInputValidator = new ConeInputValidator();
         ConeService coneService = new ConeService();
+        ConeFactory coneFactory = new ConeFactory();
+        ConeParameters coneParameters = new ConeParameters();
         ConeWarehouse coneWarehouse = new ConeWarehouse();
+
         reader.getLines("C:\\Users\\HP\\IdeaProjects\\cone\\src\\main\\resources\\Info.txt")
                 .stream()
                 .flatMap(List::stream)
@@ -37,6 +39,9 @@ public class Main {
                     System.out.println("sqr: " + coneService.calculateSquareCone(cone));
                     System.out.println("volume: " + coneService.calculateVolumeCone(cone));
                 });
+
+
+
 
     }
 }

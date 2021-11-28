@@ -2,7 +2,7 @@ package by.tms.figure.entity;
 
 import by.tms.figure.observer.ConeEvent;
 import by.tms.figure.observer.Observable;
-import by.tms.figure.observer.Observer;
+import by.tms.figure.observer.ConeObserver;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Cone implements Observable {
      private Point center;
      private double radius;
      private double height ;
-     private List<Observer> observers = new ArrayList<>();
+     private List<ConeObserver> observers = new ArrayList<>();
 
      public Cone() {
      }
@@ -94,23 +94,23 @@ public class Cone implements Observable {
      }
 
      @Override
-     public void attach(Observer observer) {
+     public void attach(ConeObserver observer) {
           observers.add(observer);
 
 
      }
 
      @Override
-     public void detach(Observer observer) {
+     public void detach(ConeObserver observer) {
           observers.remove(observer);
 
      }
 
      @Override
-     public void notifyObserver() {
+     public void notifyObservers() {
           ConeEvent coneEvent = new ConeEvent(this);
           if(!observers.isEmpty()){
-               for(Observer observer: observers){
+               for(ConeObserver observer: observers){
                     observer.parametersChange(coneEvent);
                }
           }

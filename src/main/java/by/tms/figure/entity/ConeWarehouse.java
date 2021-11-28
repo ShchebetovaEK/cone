@@ -36,13 +36,13 @@ public class ConeWarehouse {
         return coneMap.remove(coneId);
     }
 
-    public void putParameters(UUID coneId, ConeParameters coneParameters) {
+    public void putConeParameters(UUID coneId, ConeParameters coneParameters) {
         instance.coneMap.put(coneId, coneParameters);
     }
 
     public ConeParameters getConeParameters(UUID coneId) {
         ConeParameters data = instance.coneMap.get(coneId);
-        return null;
+        return data;
     }
 
 }

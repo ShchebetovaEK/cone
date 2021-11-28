@@ -7,8 +7,4 @@ public interface ConeSpecification {
 
     boolean specify(Cone cone);
 
-
-
-
-
 }

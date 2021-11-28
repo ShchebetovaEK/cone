@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 
-public class Reader {
+public class ConeReader {
 
     public static final Logger logger = LogManager.getLogger();
 
@@ -24,7 +24,7 @@ public class Reader {
             return Optional.of(reader.lines().collect(Collectors.toList()));
         } catch (IOException e) {
             e.printStackTrace();
-            logger.log(Level.WARN,"can't read a filename "+ filename);
+            logger.log(Level.ERROR,"can't read a filename "+ filename);
             return Optional.empty();
         }
     }

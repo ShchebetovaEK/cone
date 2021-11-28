@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -15,6 +16,7 @@ import java.util.stream.Stream;
 public class ConeInputMapper {
 
     private static final Logger logger = LogManager.getLogger();
+    private static final String SEPARATOR = ",";
     private ConeFactory coneFactory;
     private PointFactory pointFactory;
 
@@ -22,8 +24,6 @@ public class ConeInputMapper {
         this.coneFactory = coneFactory;
         this.pointFactory = pointFactory;
     }
-
-    private static final String SEPARATOR = ",";
 
     public List<String> mapToStringParams(String line){
         logger.debug("mapToStringParams was executed");
