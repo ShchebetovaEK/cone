@@ -59,6 +59,10 @@ public class Cone implements Observable {
         notifyObservers();
     }
 
+    public Cone createCopy(){
+        return new Cone(coneId,center.createCopy(),radius,height);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

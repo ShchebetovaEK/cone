@@ -39,6 +39,10 @@ public class Point {
         this.z = z;
     }
 
+    public Point createCopy(){
+        return new Point(x,y,z);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

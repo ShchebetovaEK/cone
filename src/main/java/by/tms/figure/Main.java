@@ -1,5 +1,6 @@
 package by.tms.figure;
 
+import by.tms.figure.entity.Cone;
 import by.tms.figure.entity.ConeParameters;
 import by.tms.figure.entity.ConeWarehouse;
 import by.tms.figure.factory.ConeFactory;
@@ -26,8 +27,10 @@ public class Main {
         ConeInputValidator coneInputValidator = new ConeInputValidator();
         ConeService coneService = new ConeService();
         ConeObserver coneObserver = new ConeObserverImpl();
+        ConeRepository coneRepository = ConeRepository.getInstance();
 
-        reader.getLines("C:\\Users\\HP\\IdeaProjects\\cone\\src\\main\\resources\\Info.txt")
+        List<Cone> coneList = reader
+                .getLines("C:\\Users\\HP\\IdeaProjects\\cone\\src\\main\\resources\\Info.txt")
                 .stream()
                 .flatMap(List::stream)
                 .map(coneInputMapper::mapToStringParams)
@@ -40,9 +43,7 @@ public class Main {
                 .peek(cone -> cone.attach(coneObserver))
                 .collect(Collectors.toList());
 
-
-
-
+        coneRepository.init(coneList);
 
 
     }
