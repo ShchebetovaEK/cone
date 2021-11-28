@@ -1,7 +1,7 @@
 package by.tms.figure.validator;
 
 import java.util.List;
-import java.util.Objects;
+
 
 public class ConeInputValidator {
 
@@ -13,7 +13,7 @@ public class ConeInputValidator {
     }
 
     public boolean validateParameters(List<Double> params){
-        return params.stream().noneMatch(Objects::isNull);
+        return params.stream().noneMatch(a -> a == Double.NaN );
     }
 
     public boolean validateConeRadius(List<Double> params){

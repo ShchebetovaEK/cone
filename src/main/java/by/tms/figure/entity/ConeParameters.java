@@ -2,23 +2,20 @@ package by.tms.figure.entity;
 
 public class ConeParameters {
 
-    private double coneSquare;
-    private double coneVolume;
+    private final double coneSquare;
+    private final double coneVolume;
+
+    public ConeParameters(double coneSquare, double coneVolume) {
+        this.coneSquare = coneSquare;
+        this.coneVolume = coneVolume;
+    }
 
     public double getConeSquare() {
         return coneSquare;
     }
 
-    public void setConeSquare(double coneSquare) {
-        this.coneSquare = coneSquare;
-    }
-
     public double getConeVolume() {
         return coneVolume;
-    }
-
-    public void setConeVolume(double coneVolume) {
-        this.coneVolume = coneVolume;
     }
 
     @Override

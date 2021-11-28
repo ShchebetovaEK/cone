@@ -4,12 +4,16 @@ import by.tms.figure.entity.ConeParameters;
 import by.tms.figure.entity.ConeWarehouse;
 import by.tms.figure.factory.ConeFactory;
 import by.tms.figure.factory.PointFactory;
+import by.tms.figure.observer.ConeEvent;
+import by.tms.figure.observer.ConeObserver;
+import by.tms.figure.observer.impl.ConeObserverImpl;
 import by.tms.figure.reader.ConeReader;
 import by.tms.figure.service.ConeService;
 import by.tms.figure.validator.ConeInputValidator;
 import by.tms.figure.mapper.ConeInputMapper;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -20,10 +24,7 @@ public class Main {
         ConeInputMapper coneInputMapper = new ConeInputMapper(new ConeFactory(), new PointFactory());
         ConeInputValidator coneInputValidator = new ConeInputValidator();
         ConeService coneService = new ConeService();
-        ConeFactory coneFactory = new ConeFactory();
-        ConeParameters coneParameters = new ConeParameters();
-        ConeWarehouse coneWarehouse = new ConeWarehouse();
-
+        ConeObserver coneObserver = new ConeObserverImpl();
         reader.getLines("C:\\Users\\HP\\IdeaProjects\\cone\\src\\main\\resources\\Info.txt")
                 .stream()
                 .flatMap(List::stream)
@@ -34,11 +35,9 @@ public class Main {
                 .filter(coneInputValidator::validateConeHeight)
                 .filter(coneInputValidator::validateConeRadius)
                 .map(coneInputMapper::mapToCone)
-                .forEach(cone -> {
-                    System.out.println("coneId: " + cone.getConeId());
-                    System.out.println("sqr: " + coneService.calculateSquareCone(cone));
-                    System.out.println("volume: " + coneService.calculateVolumeCone(cone));
-                });
+                .peek(cone -> cone.attach(coneObserver))
+                .collect(Collectors.toList())
+                .forEach(cone -> cone.setRadius(1));
 
 
 

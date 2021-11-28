@@ -9,6 +9,8 @@ import java.util.stream.Collectors;
 
 public class ConeRepository {
 
+
+
     private List<Cone> cones = new ArrayList<>();
 
     public boolean add(Cone cone){
@@ -57,11 +59,10 @@ public class ConeRepository {
                 .collect(Collectors.toList());
     }
 
-    public List<Cone> sort(Comparator<? super Cone> comparator){
-        List<Cone> conesClone = new ArrayList<>(cones);
-        conesClone.sort(comparator);
-        return conesClone;
+    public  List<Cone> sort(Comparator<Cone> comparator){
+        return cones.stream().sorted(comparator).collect(Collectors.toList());
     }
+
 
     @Override
     public boolean equals(Object o) {

@@ -1,32 +1,26 @@
-2021-11-28 10:58:37,779 INFO b.t.f.r.ConeReader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
-2021-11-28 10:58:37,803 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,804 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 10:58:37,986 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=fac0c30d-bd11-49cc-94a3-f26c814c9500, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
-2021-11-28 10:58:37,988 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,988 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 10:58:37,989 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=7f52da04-4e6f-4005-ae26-305c4d798c22, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
-2021-11-28 10:58:37,989 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,990 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,990 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,990 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 10:58:37,991 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=973d0ec5-b282-48c8-8638-5aa2565cf6d6, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
-2021-11-28 10:58:37,991 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,991 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 10:58:37,992 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 10:58:37,992 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 11:02:13,574 INFO b.t.f.r.ConeReader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
-2021-11-28 11:02:13,580 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,581 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 11:02:13,757 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=6128bdab-c4a1-4b7d-afee-3b761bc40e0a, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
-2021-11-28 11:02:13,759 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,759 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 11:02:13,759 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=9187e4ff-b29d-4afc-a74c-0b2e6ebf42e3, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
-2021-11-28 11:02:13,760 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,760 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,760 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,760 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 11:02:13,761 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=672efde2-c234-4f9a-a050-431b38b61670, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
-2021-11-28 11:02:13,761 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,761 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
-2021-11-28 11:02:13,762 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
-2021-11-28 11:02:13,762 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 14:39:02,477 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 14:39:02,497 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=203f754d-de33-4773-850e-08b161cd358f, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
+2021-11-28 14:39:02,498 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 14:39:02,498 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 14:39:02,499 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 14:39:02,499 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 15:24:43,373 INFO b.t.f.r.ConeReader [main] Success, we are read filename C:\Users\HP\IdeaProjects\cone\src\main\resources\Info.txt
+2021-11-28 15:24:43,406 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,407 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 15:24:43,754 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=534c52a0-0d15-4539-a783-41ae4a14b791, center=Point{x=1.0, y=2.0, z=3.0}, radius=5.0, height=6.0}
+2021-11-28 15:24:43,756 INFO b.t.f.e.ConeWarehouse [main] create a warehouse
+2021-11-28 15:24:43,759 INFO b.t.f.o.i.ConeObserverImpl [main] update cone parameters coneId = 534c52a0-0d15-4539-a783-41ae4a14b791 new Volume 6.283185307179586 new Square 22.25115473230594
+2021-11-28 15:24:43,759 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,760 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 15:24:43,760 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=6f73cdc7-6be9-47f6-8e12-fd75a7a44223, center=Point{x=2.0, y=3.0, z=4.0}, radius=7.0, height=8.0}
+2021-11-28 15:24:43,761 INFO b.t.f.o.i.ConeObserverImpl [main] update cone parameters coneId = 6f73cdc7-6be9-47f6-8e12-fd75a7a44223 new Volume 8.377580409572781 new Square 28.469922366991902
+2021-11-28 15:24:43,761 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,762 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,762 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,762 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 15:24:43,763 INFO b.t.f.m.ConeInputMapper [main] mapToCone successfulCone{coneId=28869a86-e537-4013-ae35-53c31af5951a, center=Point{x=5.0, y=8.0, z=9.0}, radius=4.0, height=8.0}
+2021-11-28 15:24:43,764 INFO b.t.f.o.i.ConeObserverImpl [main] update cone parameters coneId = 28869a86-e537-4013-ae35-53c31af5951a new Volume 8.377580409572781 new Square 28.469922366991902
+2021-11-28 15:24:43,764 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,764 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed
+2021-11-28 15:24:43,765 DEBUG b.t.f.m.ConeInputMapper [main] mapToStringParams was executed
+2021-11-28 15:24:43,765 DEBUG b.t.f.m.ConeInputMapper [main] mapToIntParams was executed

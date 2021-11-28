@@ -11,17 +11,21 @@ public class ConeWarehouse {
 
     private static final Logger logger = LogManager.getLogger();
     private static ConeWarehouse instance;
-    private Map<UUID, ConeParameters> coneMap = new HashMap<>();
-
-    public ConeWarehouse() {
-    }
+    private final Map<UUID, ConeParameters> coneMap = new HashMap<>();
 
     public static ConeWarehouse getInstance() {
         if (instance == null) {
-            logger.info("create a warehouse");
-            instance = new ConeWarehouse();
+            synchronized (ConeWarehouse.class) {
+                if (instance == null) {
+                    logger.info("create a warehouse");
+                    instance = new ConeWarehouse();
+                }
+            }
         }
         return instance;
+    }
+
+    private ConeWarehouse() {
     }
 
     public Map<UUID, ConeParameters> getConeMap() {
@@ -36,13 +40,10 @@ public class ConeWarehouse {
         return coneMap.remove(coneId);
     }
 
-    public void putConeParameters(UUID coneId, ConeParameters coneParameters) {
-        instance.coneMap.put(coneId, coneParameters);
-    }
-
-    public ConeParameters getConeParameters(UUID coneId) {
-        ConeParameters data = instance.coneMap.get(coneId);
-        return data;
+    public void put(UUID coneId, ConeParameters coneParameters) {
+        coneMap.put(coneId, coneParameters);
     }
 
 }
+
+
