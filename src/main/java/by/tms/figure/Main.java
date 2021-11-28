@@ -8,6 +8,7 @@ import by.tms.figure.observer.ConeEvent;
 import by.tms.figure.observer.ConeObserver;
 import by.tms.figure.observer.impl.ConeObserverImpl;
 import by.tms.figure.reader.ConeReader;
+import by.tms.figure.repository.ConeRepository;
 import by.tms.figure.service.ConeService;
 import by.tms.figure.validator.ConeInputValidator;
 import by.tms.figure.mapper.ConeInputMapper;
@@ -25,6 +26,7 @@ public class Main {
         ConeInputValidator coneInputValidator = new ConeInputValidator();
         ConeService coneService = new ConeService();
         ConeObserver coneObserver = new ConeObserverImpl();
+
         reader.getLines("C:\\Users\\HP\\IdeaProjects\\cone\\src\\main\\resources\\Info.txt")
                 .stream()
                 .flatMap(List::stream)
@@ -37,6 +39,7 @@ public class Main {
                 .map(coneInputMapper::mapToCone)
                 .peek(cone -> cone.attach(coneObserver))
                 .collect(Collectors.toList());
+
 
 
 

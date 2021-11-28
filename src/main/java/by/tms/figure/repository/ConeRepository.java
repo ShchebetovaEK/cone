@@ -1,9 +1,9 @@
 package by.tms.figure.repository;
 
 import by.tms.figure.entity.Cone;
+import by.tms.figure.entity.ConeWarehouse;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -12,16 +12,32 @@ import java.util.stream.Collectors;
 public class ConeRepository {
 
     private static final Logger logger = LogManager.getLogger();
-//    private final ConeRepository
-
+    private static ConeRepository instance;
+    private final ConeRepository coneRepository = ConeRepository.getInstance();
     private List<Cone> cones = new ArrayList<>();
 
-//    public void Repository(List<Cone> cones) {
-//        for (Cone cone: cones) {
-//            СoneRepository.add(cone);
-//        }
-//        logger.info("Repository filled successfully");
-//    }
+    private ConeRepository() {
+        cones = new ArrayList<>();
+    }
+
+    public static ConeRepository getInstance() {
+        if (instance == null) {
+            synchronized (ConeRepository.class) {
+                if (instance == null) {
+                    logger.info("create a repository");
+                    instance = new ConeRepository();
+                }
+            }
+        }
+        return instance;
+    }
+
+    public void ConeRepository(List<Cone> cones) {
+        for (Cone cone: cones) {
+            coneRepository.add(cone);
+        }
+        logger.info("Repository filled successfully");
+    }
 
     public boolean add(Cone cone){
         return cones.add(cone);
