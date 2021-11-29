@@ -6,7 +6,6 @@ import by.tms.figure.entity.ConeWarehouse;
 import by.tms.figure.observer.ConeEvent;
 import by.tms.figure.observer.ConeObserver;
 import by.tms.figure.service.ConeService;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -27,6 +26,6 @@ public class ConeObserverImpl implements ConeObserver {
         double coneVolume = coneService.calculateVolumeCone(cone);
         ConeParameters coneParameters = new ConeParameters(coneSquare, coneVolume);
         coneWarehouse.put(cone.getConeId(), coneParameters);
-        logger.log(Level.INFO, "update cone parameters coneId = {} new Volume {} new Square {}" ,coneId,coneVolume,coneSquare );
+        logger.info("update cone parameters coneId = {} new Volume {} new Square {}" ,coneId,coneVolume,coneSquare );
     }
 }

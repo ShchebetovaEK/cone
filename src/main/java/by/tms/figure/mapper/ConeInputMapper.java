@@ -56,6 +56,4 @@ public class ConeInputMapper {
             return Double.NaN;
         }
     }
-
-
 }

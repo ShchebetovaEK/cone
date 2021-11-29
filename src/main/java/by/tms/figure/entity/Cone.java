@@ -59,8 +59,8 @@ public class Cone implements Observable {
         notifyObservers();
     }
 
-    public Cone createCopy(){
-        return new Cone(coneId,center.createCopy(),radius,height);
+    public Cone createCopy() {
+        return new Cone(coneId, center.createCopy(), radius, height);
     }
 
     @Override

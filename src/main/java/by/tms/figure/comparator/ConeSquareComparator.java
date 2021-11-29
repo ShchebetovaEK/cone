@@ -9,7 +9,8 @@ import java.util.Comparator;
 
         @Override
         public int compare(Cone o1, Cone o2) {
-            return Double.compare(ConeWarehouse.getInstance().get(o1.getConeId()).getConeSquare(), ConeWarehouse.getInstance().get(o2.getConeId()).getConeSquare());
+            return Double.compare(ConeWarehouse.getInstance().get(o1.getConeId()).getConeSquare(),
+                    ConeWarehouse.getInstance().get(o2.getConeId()).getConeSquare());
         }
 
     }

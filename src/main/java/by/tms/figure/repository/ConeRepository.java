@@ -16,7 +16,6 @@ public class ConeRepository {
     private static ConeRepository instance;
     private List<Cone> cones = new ArrayList<>();
 
-
     private ConeRepository() {
 
     }

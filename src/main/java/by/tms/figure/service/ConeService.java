@@ -1,8 +1,6 @@
 package by.tms.figure.service;
 
 import by.tms.figure.entity.Cone;
-import by.tms.figure.entity.Point;
-
 
 public class ConeService {
 
